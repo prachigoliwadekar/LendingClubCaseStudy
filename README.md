@@ -68,51 +68,51 @@ Data cleaning on rows -
 ## Data Analysis
 
 - Univariate Analysis
-    -- loan_amt
-    -- funded_amnt
-    -- funded_amnt_inv
-    -- int_rate
-    -- installment
-    -- annual_inc
-    -- dti
+    - loan_amt
+    - funded_amnt
+    - funded_amnt_inv
+    - int_rate
+    - installment
+    - annual_inc
+    - dti
 
 - Unordered Categorical Variable Analysis
-    -- home_ownership
-    -- purpose
-    -- addr_state
+    - home_ownership
+    - purpose
+    - addr_state
 
 - Ordered Categorical Variable Analysis
-    -- term
-    -- grade
-    -- emp_length
-    -- pub_rec_bankruptcies
+    - term
+    - grade
+    - emp_length
+    - pub_rec_bankruptcies
 
 - Derived Variable Analysis
-    -- issue_year
-    -- issue_month
-    -- issue_q
-    -- loan_amnt_b
+    - issue_year
+    - issue_month
+    - issue_q
+    - loan_amnt_b
 
 - Heat Map - funded_amnt', 'funded_amnt_inv', 'loan_amnt'
 - Bar charts - annual_inc_b, dti_b
 
 - Bivariate Analysis
-    -- term v/s loan_status
-    -- grade v/s loan_status
-    -- emp_length v/s loan_status
-    -- home_ownership v/s loan_status
-    -- purpose v/s loan_status
-    -- addr_state v/s loan_status
-    -- pub_rec_bankruptcies v/s loan_status
-    -- issue_q v/s loan_status
-    -- annual_inc_b v/s loan_status
-    -- loan_amnt_b v/s loan_status
-    -- int_rate_b v/s loan_status
+    - term v/s loan_status
+    - grade v/s loan_status
+    - emp_length v/s loan_status
+    - home_ownership v/s loan_status
+    - purpose v/s loan_status
+    - addr_state v/s loan_status
+    - pub_rec_bankruptcies v/s loan_status
+    - issue_q v/s loan_status
+    - annual_inc_b v/s loan_status
+    - loan_amnt_b v/s loan_status
+    - int_rate_b v/s loan_status
 
 - Correlation Analysis
-      -- "int_rate","term","dti","pub_rec_bankruptcies","emp_length","installment","loan_amnt","annual_inc","issue_year","id","issue_month"
-      -- "int_rate","term","dti","pub_rec_bankruptcies","emp_length","loan_amnt","annual_inc"
-      -- 'term', 'int_rate', 'dti'
+      - "int_rate","term","dti","pub_rec_bankruptcies","emp_length","installment","loan_amnt","annual_inc","issue_year","id","issue_month"
+      - "int_rate","term","dti","pub_rec_bankruptcies","emp_length","loan_amnt","annual_inc"
+      - 'term', 'int_rate', 'dti'
   
 - Pair Plot - 'loan_amnt', 'annual_inc', 'int_rate', 'dti'
 
