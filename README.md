@@ -117,7 +117,16 @@ Data cleaning on rows -
 - Pair Plot - 'loan_amnt', 'annual_inc', 'int_rate', 'dti'
 
 ## Conclusions
-
+- Individuals seeking 60-month loan terms require more rigorous evaluation due to the increased default risk (25%) compared to those with shorter 36-month terms.
+- The homeownership status of RENT and MORTGAGE are at the highest risk of Charge Offs
+- Charge-off rate is not significantly impacted by verification status (Verified or Not Verified), though purely in terms of volume Not Verified applicants are higher.
+- Debt consolidation has the highest volume of charge-offs.
+- Highest volume of loans is from CA and purely based on volumes the highest Charge Off's are from CA
+- Loan applications from the state NV are having high risk of defaulting
+- The lender needs to be very careful with people having any bankruptcy record, since they have very high chance of defaulting.
+- The Lending Company should be careful to approve loans for applicants with annual income of less than 40k or even better anybody less than 60k.
+- For loan amount, the highest volume of charge-offs falls within the $5,000 to $10,000 category.
+- Loans with interest rates of 15% and above face the highest charge-off risk.
 
 ## Technologies Used
 - [Python - Version 3.12.1](https://www.python.org/downloads/release/python-3121/)
